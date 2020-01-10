@@ -4,7 +4,6 @@
     "default": {
       "connector": "strapi-hook-mongoose",
       "settings": {
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
         "uri":"mongodb+srv://mandrade:3ct3ppfo@clusterturismo-umyo3.mongodb.net/test?retryWrites=true&w=majority"
       },
       "options": {
@@ -14,6 +13,7 @@
   }
 }
 
+// "database": "${process.env.DATABASE_NAME || 'strapi'}",
 // "username": "${process.env.DATABASE_USERNAME || ''}",
 // "password": "${process.env.DATABASE_PASSWORD || ''}",
 // "client": "mongo",
