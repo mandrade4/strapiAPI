@@ -1,12 +1,12 @@
 {
-  "host": "localhost",
+  "host": "https://mysterious-dawn-04281.herokuapp.com/",
   "port": "${process.env.PORT || 1337}",
   "production": true,
   "proxy": {
     "enabled": false
   },
   "autoReload": {
-    "enabled": false
+    "enabled": true
   },
   "cron": {
     "enabled": false
