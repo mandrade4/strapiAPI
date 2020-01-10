@@ -1,3 +1,3 @@
-# appTurismo
+# Strapi API for turismoAPP
 
-A quick description of appTurismo.
+API desarrollada en el CMS Strapi para la aplicacion de turismo 2019.
