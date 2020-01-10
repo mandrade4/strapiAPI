@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "users",
+    "description": "Usuarios de aplicacion"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "birthdate": {
+      "type": "string"
+    },
+    "genero": {
+      "enum": [
+        "Masculino",
+        "Femenino",
+        "Otro"
+      ],
+      "type": "enumeration"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

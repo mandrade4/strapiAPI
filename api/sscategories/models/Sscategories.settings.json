@@ -1,9 +1,9 @@
 {
   "connection": "default",
-  "collectionName": "categories",
+  "collectionName": "sscategories",
   "info": {
-    "name": "categories",
-    "description": "Listado de categorias de turismoApp"
+    "name": "sscategories",
+    "description": ""
   },
   "options": {
     "timestamps": true
@@ -15,9 +15,9 @@
     "image": {
       "type": "string"
     },
-    "subcategories": {
-      "collection": "subcategories",
-      "via": "category"
+    "subcategory": {
+      "model": "subcategories",
+      "via": "sscategories"
     }
   }
 }

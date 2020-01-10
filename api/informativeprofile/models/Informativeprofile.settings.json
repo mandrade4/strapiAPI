@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "informativeprofile",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "images": {
+      "type": "json"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "latitud": {
+      "type": "string"
+    },
+    "longitud": {
+      "type": "string"
+    }
+  }
+}

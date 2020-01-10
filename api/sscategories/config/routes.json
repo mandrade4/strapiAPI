@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sscategories",
+      "handler": "Sscategories.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sscategories/count",
+      "handler": "Sscategories.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sscategories/:_id",
+      "handler": "Sscategories.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sscategories",
+      "handler": "Sscategories.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sscategories/:_id",
+      "handler": "Sscategories.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sscategories/:_id",
+      "handler": "Sscategories.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

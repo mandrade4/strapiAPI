@@ -15,8 +15,12 @@
     "image": {
       "type": "string"
     },
-    "categories": {
-      "collection": "categories",
+    "category": {
+      "model": "categories",
+      "via": "subcategories"
+    },
+    "sscategories": {
+      "collection": "sscategories",
       "via": "subcategory"
     }
   }
