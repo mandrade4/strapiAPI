@@ -1,6 +1,6 @@
 {
-  "host": "localhost",
-  "port": 1337,
+  "host": "https://mysterious-dawn-04281.herokuapp.com/",
+  "port": "${process.env.PORT || 1337}",
   "proxy": {
     "enabled": false
   },
