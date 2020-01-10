@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "subcategories",
+  "info": {
+    "name": "subcategories",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "categories": {
+      "collection": "categories",
+      "via": "subcategory"
+    }
+  }
+}

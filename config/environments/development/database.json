@@ -1,0 +1,14 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "uri":"mongodb+srv://mandrade:3ct3ppfo@clusterturismo-umyo3.mongodb.net/test?retryWrites=true&w=majority"
+      },
+      "options": {
+        "ssl" : true
+      }
+    }
+  }
+}

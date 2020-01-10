@@ -1,0 +1,4 @@
+{
+  "myCustomConfiguration": "This configuration is accessible through strapi.config.myCustomConfiguration",
+  "backendURL": "https://api-cloud-tourism.herokuapp.com"
+}
